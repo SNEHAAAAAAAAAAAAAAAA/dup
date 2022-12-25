@@ -1,0 +1,17 @@
+l=[ ]
+n=int(input())
+l=list(map(int,input().split()))
+max=l[0]
+for i in range(1,n):
+	if l[i]>max:
+		max=l[i]
+print(max)
+
+
+O/p.....
+
+6
+1 2 2 3 1 1
+3
+
+[Program finished]
